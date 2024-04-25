@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Wayfarer</title>
+    <style>
+        /* Style definitions */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #d7e8f5;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin-right: 20px;
+        }
+
+        nav a:hover {
+            background-color: #e8f0f7;
+        }
+
+        main {
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .product {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 30%;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .product button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .product button:hover {
+            background-color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #d7e8f5;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Wanderlust Wayfarer</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product">
+            <img src="images/backpack.jpg" alt="Travel Backpack">
+            <h2>The Explorer's Companion</h2>
+            <p>This durable and stylish backpack is perfect for any adventure. With plenty of compartments and comfortable straps, it will keep your essentials organized and accessible while you roam the world.</p>
+            <button onmouseover="changeColor(this)" onmouseout="resetColor(this)">Learn More</button>
+        </section>
+
+        <section class="product">
+            <img src="images/camera.jpg" alt="Travel Camera">
+            <h2>Capture Your Journey</h2>
+            <p>Capture stunning photos and videos of your travels with this compact and powerful camera. Easy to use and packed with features, it'll help you document your memories in vivid detail.</p>
+            <button onmouseover="changeColor(this)" onmouseout="resetColor(this)">Learn More</button>
+        </section>
+
+        <section class="product">
+            <img src="images/waterbottle.jpg" alt="Reusable Water Bottle">
+            <h2>Stay Hydrated on the Go</h2>
+            <p>This eco-friendly water bottle is the perfect way to stay hydrated while you travel. The sleek design is easy to carry, and the double-walled insulation keeps your drinks cold or hot for hours.</p>
+            <button onmouseover="changeColor(this)" onmouseout="resetColor(this)">Learn More</button>
+        </section>
